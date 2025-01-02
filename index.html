@@ -1,34 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Book Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Renia Zainabha Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="book-container">
-        <div class="book">
-            <div class="book-page front">
-                <h1>My Portfolio</h1>
-                <p>Web Developer</p>
-                <button onclick="flipPage()">Open Book</button>
-            </div>
-            <div class="book-page back">
-                <h2>About Me</h2>
-                <p>I'm a Full Stack Developer, passionate about creating innovative solutions using JavaScript, React, Node.js, and more.</p>
-                <p><strong>Skills:</strong></p>
-                <ul>
-                    <li>HTML, CSS, JavaScript</li>
-                    <li>React, Angular</li>
-                    <li>Node.js, Express</li>
-                    <li>Database: MongoDB, MySQL</li>
-                </ul>
-                <button onclick="flipPage()">Close Book</button>
-            </div>
-        </div>
-    </div>
+  <header>
+    <nav>
+	
+      <div class="logo">Renia Zainabha</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <script src="script.js"></script>
+  <section class="hero">
+  <body>
+  <div class="masked-text">Renia Zainabha</div>
+  <p>Java Full-Stack Developer | Passionate About Coding and Innovation</p>
+    <a href="#contact" class="btn">Contact Me</a>
+</body>
+   <!-- <h1>Hello, I'm <span>Renia Zainabha</span></h1>
+    <p>Java Full-Stack Developer | Passionate About Coding and Innovation</p>
+    <a href="#contact" class="btn">Contact Me</a> !-->
+  </section>
+
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <div class="content">
+      <p>
+        I am a Software Developer with 7 years of experience in building enterprise solutions. My expertise lies in Java, Spring Boot, Angular, and microservices architecture.
+      </p>
+      <p>Hobbies include social work, reading books, and traveling.</p>
+    </div>
+    <img src="Renia.png" alt="Renia Zainabha" class="profile-pic">
+  </section>
+
+  <section id="skills" class="section skills">
+    <h2>Skills</h2>
+    <div class="skill-cards">
+      <div class="card">Java</div>
+      <div class="card">Spring Boot</div>
+      <div class="card">Angular</div>
+      <div class="card">Microservices</div>
+      <div class="card">HTML & CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">MySQL</div>
+      <div class="card">PHP</div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>ERP Solution</h3>
+        <p>Automated workflows for a manufacturing firm using PHP and MySQL.</p>
+      </div>
+      <div class="card">
+        <h3>Latam Airlines</h3>
+        <p>Built RESTful APIs for flight schedules and customer profiles using Spring Boot.</p>
+      </div>
+      <div class="card">
+        <h3>JetBlue Airways</h3>
+        <p>Enhanced ticket booking systems with high-load optimizations.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Renia Zainabha. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

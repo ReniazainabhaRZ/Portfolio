@@ -1,0 +1,10 @@
+<section id="about" class="section about">
+  <h2>About Me</h2>
+  <div class="content">
+    <p>
+      I am a Software Developer with 7 years of experience in building enterprise solutions. My expertise lies in Java, Spring Boot, Angular, and microservices architecture.
+    </p>
+    <p>Hobbies include social work, reading books, and traveling.</p>
+  </div>
+  <img src="Renia.jpg" alt="Renia Zainabha" class="profile-pic">
+</section>
